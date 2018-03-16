@@ -6,7 +6,7 @@ function addElementToBeginningOfArray(arr, elm){
 }
 
 function destructivelyAddElementToBeginningOfArray(arr, elm){
-  arr.push(elm)
+  arr.unshift(elm)
 }
 
 function accessElementInArray(arr, index){
